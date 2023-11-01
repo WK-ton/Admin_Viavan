@@ -1,0 +1,53 @@
+
+.table tbody tr.red {
+    background-color: red;
+  }
+  
+  .table tbody tr.green {
+    background-color: green;
+  }
+  
+  /* การปรับขนาดรูปภาพเมื่อขยาย */
+  .cars_images.enlarged {
+    width: 250px;
+    height: 400px;
+  }
+  
+  /* ปุ่มรอยืนยัน */
+  .btn-warning {
+    background-color: y;
+    color: black;
+  }
+  
+  /* ปุ่มยืนยันแล้ว */
+  .success-button {
+    background-color: green;
+    color: white;
+  }
+.responsive-modal {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-modal {
+      max-width: 100%;
+    }
+  }
+  /* Add this CSS to your stylesheet or component CSS */
+.notification-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px; /* Adjust the size as needed */
+    color: black; /* Change the color based on your design */
+    cursor: pointer;
+  }
+  
+  
+
+  
+  
+  
+
+  
